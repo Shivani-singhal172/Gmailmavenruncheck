@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="40413" started-at="2018-04-08T17:05:40Z" finished-at="2018-04-08T17:06:21Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="40413" started-at="2018-04-08T17:05:40Z" finished-at="2018-04-08T17:06:21Z">
+      <class name="pageClasses.createAccounttest1">
+        <test-method status="PASS" signature="launch()[pri:0, instance:pageClasses.createAccounttest1@1774679]" name="launch" is-config="true" duration-ms="12464" started-at="2018-04-08T22:35:40Z" finished-at="2018-04-08T22:35:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="createaccount()[pri:0, instance:pageClasses.createAccounttest1@1774679]" name="createaccount" duration-ms="26862" started-at="2018-04-08T22:35:53Z" finished-at="2018-04-08T22:36:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createaccount -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:pageClasses.createAccounttest1@1774679]" name="quit" is-config="true" duration-ms="1054" started-at="2018-04-08T22:36:20Z" finished-at="2018-04-08T22:36:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- pageClasses.createAccounttest1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
