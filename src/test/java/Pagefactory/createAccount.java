@@ -93,9 +93,6 @@ public class createAccount {
 		takscsht.screenshot(driver, "firstname");
 		
 	}
-	public void unqueemailaddress(){
-		
-	}
 	
 	public void emailPassword(int i){
 		 passwordvalue = "Monday@123"+i+"";

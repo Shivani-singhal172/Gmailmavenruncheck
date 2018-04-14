@@ -4,7 +4,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.AfterTest;
+//import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -31,7 +31,7 @@ public class createAccounttest1  {
 	public void createaccount(){
 		testobj= new createAccount(driver);
 		testobj.NameM();
-		testobj.emailPassword(1);
+		testobj.emailPassword(0);
 		testobj.BirthDayM();
 		testobj.GenderM();
 		testobj.PhoneNumberM();
@@ -42,10 +42,10 @@ public class createAccounttest1  {
 		
 	}
 	
-	@AfterTest
+	/*@AfterTest
 	public void quit(){
 		driver.quit();
-	}
+	}*/
 
 	
    
